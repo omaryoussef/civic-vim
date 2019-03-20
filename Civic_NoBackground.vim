@@ -12,15 +12,15 @@ let g:colors_name = "Civic"
 
 hi Cursor ctermfg=233 ctermbg=231 cterm=NONE guifg=#252630 guibg=#fcffff gui=NONE
 hi Visual ctermfg=NONE ctermbg=235 cterm=NONE guifg=NONE guibg=#3c4856 gui=NONE
-hi CursorLine ctermfg=NONE ctermbg=235 cterm=NONE guifg=NONE guibg=#383942 gui=NONE
-hi CursorColumn ctermfg=NONE ctermbg=235 cterm=NONE guifg=NONE guibg=#383942 gui=NONE
-hi SignColumn ctermfg=NONE ctermbg=235 cterm=NONE guifg=NONE guibg=#383942 gui=NONE
-hi ColorColumn ctermfg=NONE ctermbg=235 cterm=NONE guifg=NONE guibg=#383942 gui=NONE
-hi LineNr ctermfg=102 ctermbg=235 cterm=NONE guifg=#83848c guibg=#383942 gui=NONE
-hi VertSplit ctermfg=235 ctermbg=235 cterm=NONE guifg=#5c5d65 guibg=#5c5d65 gui=NONE
+hi CursorLine ctermfg=NONE ctermbg=234 cterm=NONE guifg=NONE guibg=#383942 gui=NONE
+hi CursorColumn ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=#383942 gui=NONE
+hi SignColumn ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=#383942 gui=NONE
+hi ColorColumn ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=#383942 gui=NONE
+hi LineNr ctermfg=102 ctermbg=NONE cterm=NONE guifg=#83848c guibg=#383942 gui=NONE
+hi VertSplit ctermfg=235 ctermbg=NONE cterm=NONE guifg=#5c5d65 guibg=#5c5d65 gui=NONE
 hi MatchParen ctermfg=168 ctermbg=NONE cterm=underline guifg=#cf3f93 guibg=NONE gui=underline
-hi StatusLine ctermfg=254 ctermbg=235 cterm=bold guifg=#e1e2e7 guibg=#5c5d65 gui=bold
-hi StatusLineNC ctermfg=254 ctermbg=235 cterm=NONE guifg=#e1e2e7 guibg=#5c5d65 gui=NONE
+hi StatusLine ctermfg=254 ctermbg=NONE cterm=bold guifg=#e1e2e7 guibg=#5c5d65 gui=bold
+hi StatusLineNC ctermfg=254 ctermbg=NONE cterm=NONE guifg=#e1e2e7 guibg=#5c5d65 gui=NONE
 hi Pmenu ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
 hi PmenuSel ctermfg=NONE ctermbg=235 cterm=NONE guifg=NONE guibg=#3c4856 gui=NONE
 hi IncSearch ctermfg=233 ctermbg=167 cterm=NONE guifg=#252630 guibg=#ca4540 gui=NONE
@@ -28,7 +28,7 @@ hi Search ctermfg=NONE ctermbg=NONE cterm=underline guifg=NONE guibg=NONE gui=un
 hi Directory ctermfg=167 ctermbg=NONE cterm=NONE guifg=#ca4540 guibg=NONE gui=NONE
 hi Folded ctermfg=77 ctermbg=233 cterm=NONE guifg=#32cf72 guibg=#252630 gui=NONE
 
-hi Normal ctermfg=254 ctermbg=233 cterm=NONE guifg=#e1e2e7 guibg=#252630 gui=NONE
+hi Normal ctermfg=254 ctermbg=NONE cterm=NONE guifg=#e1e2e7 guibg=#252630 gui=NONE
 hi Boolean ctermfg=173 ctermbg=NONE cterm=NONE guifg=#c77a4b guibg=NONE gui=NONE
 hi Character ctermfg=173 ctermbg=NONE cterm=NONE guifg=#c77a4b guibg=NONE gui=NONE
 hi Comment ctermfg=77 ctermbg=NONE cterm=NONE guifg=#32cf72 guibg=NONE gui=NONE
@@ -46,7 +46,7 @@ hi Function ctermfg=73 ctermbg=NONE cterm=NONE guifg=#56afb0 guibg=NONE gui=NONE
 hi Identifier ctermfg=168 ctermbg=NONE cterm=NONE guifg=#cf3f93 guibg=NONE gui=NONE
 hi Keyword ctermfg=168 ctermbg=NONE cterm=NONE guifg=#cf3f93 guibg=NONE gui=NONE
 hi Label ctermfg=167 ctermbg=NONE cterm=NONE guifg=#ca4540 guibg=NONE gui=NONE
-hi NonText ctermfg=244 ctermbg=233 cterm=NONE guifg=#7f7f7f guibg=#2e2f39 gui=NONE
+hi NonText ctermfg=102 ctermbg=NONE cterm=NONE guifg=#7f7f7f guibg=#2e2f39 gui=NONE
 hi Number ctermfg=173 ctermbg=NONE cterm=NONE guifg=#c77a4b guibg=NONE gui=NONE
 hi Operator ctermfg=97 ctermbg=NONE cterm=NONE guifg=#746db0 guibg=NONE gui=NONE
 hi PreProc ctermfg=168 ctermbg=NONE cterm=NONE guifg=#cf3f93 guibg=NONE gui=NONE
@@ -95,7 +95,7 @@ hi javaScriptFunction ctermfg=168 ctermbg=NONE cterm=NONE guifg=#cf3f93 guibg=NO
 hi javaScriptRailsFunction ctermfg=73 ctermbg=NONE cterm=NONE guifg=#56afb0 guibg=NONE gui=NONE
 hi javaScriptBraces ctermfg=66 ctermbg=NONE cterm=NONE guifg=#55747c guibg=NONE gui=NONE
 hi jsFuncCall ctermfg=73 ctermbg=NONE cterm=NONE guifg=#56afb0 guibg=NONE gui=NONE
-hi phpClasses ctermfg=66 ctermbg=NONE cterm=NONE guifg=#56afb0 guibg=NONE gui=NONE
+hi phpClass ctermfg=73 ctermbg=NONE cterm=NONE guifg=#56afb0 guibg=NONE gui=NONE
 hi phpFunction ctermfg=73 ctermbg=NONE cterm=NONE guifg=#56afb0 guibg=NONE gui=NONE
 hi phpMethodsVar ctermfg=73 ctermbg=NONE cterm=NONE guifg=#56afb0 guibg=NONE gui=NONE
 hi yamlKey ctermfg=97 ctermbg=NONE cterm=NONE guifg=#746db0 guibg=NONE gui=NONE
